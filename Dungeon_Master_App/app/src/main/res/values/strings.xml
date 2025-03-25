@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Proyecto Integrado</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="user">User</string>
+    <string name="create_character">Create Character</string>
+    <string name="log_out">Log Out</string>
+
+</resources>

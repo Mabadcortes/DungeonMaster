@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkRed"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/character_background" />
+
+    <RelativeLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:alpha=".4"
+            android:background="@drawable/custom_input" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:text="Name: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/name"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/name"
+            android:text="Level: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/level"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Class: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterName"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/clas"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/race"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/level"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/clas"
+            android:text="Race: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterRace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/characterLevel"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/race"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clas"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Background: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterClass"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/background"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/alignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/background"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Alignment: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterAlignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterBackground"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/alignment"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alignment"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Experience points: "
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterAlignment"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/experience"
+            android:text=""
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@id/experience"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:alpha=".4"
+            android:background="@drawable/custom_input" />
+
+        <TextView
+            android:id="@+id/str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/experience"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="45dp"
+            android:text="Strength"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterStr"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/str"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/experience"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/str"
+            android:text="Dexterity"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterDex"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/dex"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/characterStr"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/experience"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/dex"
+            android:text="Constitution"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterCons"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/cons"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/characterDex"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/intg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterStr"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Intelligence"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterInt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/intg"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterDex"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/str"
+            android:text="Wisdom"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterWis"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/wis"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/characterStr"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/chari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterCons"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/dex"
+            android:text="Charisma"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/characterChar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/chari"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/characterDex"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterInt"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Hit Points"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hitPoints"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/hp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterWis"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/str"
+            android:text="  Armor"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/armorClass"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ac"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/characterStr"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/init"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterChar"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/dex"
+            android:text="Initiative"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/initiative"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/init"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/characterDex"
+            android:background="@drawable/text_box"
+            android:paddingTop="2dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/armorClass"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/hitPoints"
+            android:background="@drawable/button_style"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:alpha=".4"
+            android:background="@drawable/custom_input" />
+
+        <TextView
+            android:id="@+id/equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="85dp"
+            android:paddingTop="2dp"
+            android:text="Equipment"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listEquipment"
+            android:layout_width="365dp"
+            android:layout_height="190dp"
+            android:layout_below="@+id/equipment"
+            android:divider="@color/darkBlue"
+            android:dividerHeight="2sp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_below="@+id/listEquipment"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="10dp"
+            android:alpha=".4"
+            android:background="@drawable/custom_input" />
+
+        <TextView
+            android:id="@+id/spell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listEquipment"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:paddingTop="2dp"
+            android:text="Spell"
+            android:textColor="@color/darkRed"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listSpell"
+            android:layout_width="365dp"
+            android:layout_height="190dp"
+            android:layout_below="@+id/spell"
+            android:divider="@color/darkBlue"
+            android:dividerHeight="2sp"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listSpell"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

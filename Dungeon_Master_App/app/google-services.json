@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216145950903",
+    "project_id": "proyecto-integrado-1dbfe",
+    "storage_bucket": "proyecto-integrado-1dbfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216145950903:android:a6cb18d0b369bed4527532",
+        "android_client_info": {
+          "package_name": "com.example.proyectointegrado"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMW0fC2js_RAzRLJJc906pOHnuZydWwjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo_dyd_mobile"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_dyd_mobile"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoIntegrado"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="activities.ChargeActivity"
+            android:exported="false" />
+        <activity
+            android:name="activities.EditCharacter"
+            android:exported="false" />
+        <activity
+            android:name="activities.CharacterView"
+            android:exported="false" />
+        <activity
+            android:name="activities.CreateCharacter_Activity"
+            android:exported="false" />
+        <activity
+            android:name="activities.Main_Activity"
+            android:exported="false" />
+        <activity
+            android:name="activities.Login_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activities.Register_Activity"
+            android:exported="true" />
+    </application>
+
+</manifest>

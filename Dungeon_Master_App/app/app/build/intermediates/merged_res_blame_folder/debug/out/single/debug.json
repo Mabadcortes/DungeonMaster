@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_fondo_blanco.jpg.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/fondo_blanco.jpg"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_text_box.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/text_box.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_rebelliong_logo.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/rebelliong_logo.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_soldier_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/soldier_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/color_press_color.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/color/press_color.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_login.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/login.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_ranger_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/ranger_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_login.jpg.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/login.jpg"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_logo_dyd_mobile.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/logo_dyd_mobile.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_fondo.jpg.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/fondo.jpg"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_plus_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/plus_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_elf_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/elf_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_register.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/register.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_search_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/search_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/menu_spell_list_menu.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/menu/spell_list_menu.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_sage_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/sage_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/font_badaboom.ttf.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/font/badaboom.ttf"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_criminal_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/criminal_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_activity_character_view.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/activity_character_view.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_human_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/human_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-hdpi_logo_dyd_mobile.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-hdpi/logo_dyd_mobile.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_fondo_main.jpg.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/fondo_main.jpg"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/menu_menu.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_wizard_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/wizard_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_inactive_button.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/inactive_button.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_spinner_element.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/spinner_element.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_folk_hero_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/folk_hero_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_icon_profile.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/icon_profile.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_spell_list.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/spell_list.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_equipment_list.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/equipment_list.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_acolyte_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/acolyte_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_character_background.jpg.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/character_background.jpg"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/menu_equipment_list_menu.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/menu/equipment_list_menu.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_button_style.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/button_style.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_back_arrow.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/back_arrow.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_element_list.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/element_list.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_dwarf_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/dwarf_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/menu_character_menu.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/menu/character_menu.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_x_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/x_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_activity_edit_character.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/activity_edit_character.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_barbarian_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/barbarian_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_rogue_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/rogue_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_activity_create_character.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/activity_create_character.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/menu_list_menu.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/menu/list_menu.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/layout_activity_charge.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/layout/activity_charge.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_noble_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/noble_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_custom_input.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/custom_input.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_list_style.xml.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/list_style.xml"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_tiefling_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/tiefling_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/drawable_list_icon.png.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/drawable/list_icon.png"
+    },
+    {
+        "merged": "com.example.proyectointegrado.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectointegrado.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]

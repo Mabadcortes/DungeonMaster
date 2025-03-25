@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">216145950903</string>
+    <string name="google_api_key" translatable="false">AIzaSyAMW0fC2js_RAzRLJJc906pOHnuZydWwjY</string>
+    <string name="google_app_id" translatable="false">1:216145950903:android:a6cb18d0b369bed4527532</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAMW0fC2js_RAzRLJJc906pOHnuZydWwjY</string>
+    <string name="google_storage_bucket" translatable="false">proyecto-integrado-1dbfe.appspot.com</string>
+    <string name="project_id" translatable="false">proyecto-integrado-1dbfe</string>
+</resources>
